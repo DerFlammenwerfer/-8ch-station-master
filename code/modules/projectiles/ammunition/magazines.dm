@@ -159,7 +159,7 @@
 
 /obj/item/ammo_box/magazine/m9mm/update_icon()
 	..()
-	icon_state = "m9mm-[ammo_count() ? "15" : "0")]"
+	icon_state = "m9mm-[ammo_count() ? "15" : "0"]"
 
 /obj/item/ammo_box/magazine/smgm45
 	name = "SMG magazine (.45)"
