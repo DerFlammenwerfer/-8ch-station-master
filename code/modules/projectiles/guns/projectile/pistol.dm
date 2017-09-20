@@ -59,5 +59,5 @@
 
 /obj/item/weapon/gun/projectile/automatic/pistol/glog/update_icon()
 	..()
-	icon_state = "[magazine ? "-[magazine.max_ammo]" : ""][initial(icon_state)][chambered ? "" : "-e"]"
+	icon_state = "[initial(icon_state)][magazine ? "-[magazine.max_ammo]" : ""][chambered ? "" : "-e"]"
 	return
